@@ -9,6 +9,9 @@ Console.Write("b = ");
 int b = int.Parse(Console.ReadLine());
 
 int max = a;
+int min = a;
 if(a < b) max = b;
+if(a > b) min = b;
 
 Console.WriteLine("max = " + max);
+Console.WriteLine("min = " + min);
