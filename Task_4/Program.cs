@@ -1,8 +1,9 @@
 ﻿Console.WriteLine("Введите число -> ");
 int num = int.Parse(Console.ReadLine());
 int count = -num;
-while (num => count)
+Console.WriteLine("Вывод чисел");
+while (count <= num)
 {
-    Console.Write(count);
+    Console.Write(count + ", ");
     count++;
 }
