@@ -4,6 +4,13 @@ int count = -num;
 Console.WriteLine("Вывод чисел");
 while (count <= num)
 {
-    Console.Write(count + ", ");
+    if(count == num)
+    {
+        Console.Write(count + ". ");
+    }
+    else
+    {
+        Console.Write(count + ", "); 
+    }
     count++;
 }
